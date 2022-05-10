@@ -1,0 +1,58 @@
+html {
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        font-size: 16px;
+        background-color: aquamarine;
+    }
+}
+
+fieldset {
+    box-sizing: revert;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+legend {
+    background-color: yellow;
+    border-radius: 7px;
+}
+
+textarea {
+    width: content-box;
+    padding: 2%;
+    border-radius: 5px;
+
+}
+
+table {
+    width: 100%;
+}
+
+td:not(:first-child) {
+    text-align: center;
+}
+
+#comments {
+    margin: 35px;
+}
+
+#personal_info input {
+    width: 100%;
+}
+
+ button {
+     border-radius: 25px;
+     width: 100%;
+     background-color: greenyellow;
+     font-size: x-large;
+     border-style: dashed;
+}
+
